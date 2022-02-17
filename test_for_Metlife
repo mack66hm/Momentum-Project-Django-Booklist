@@ -1,0 +1,2 @@
+| where action="Permitted" OR action="Continued (confirmed)" OR action="Encrypted with user password" OR action="Permitted" OR action="Continued (confirmed)" OR action="Encrypted with user password"
+| where severity=High OR severity=HIGH 
